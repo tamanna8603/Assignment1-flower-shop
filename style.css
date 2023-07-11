@@ -40,6 +40,41 @@
   color: #E55473;;
 }
 
+.title{
+  color: #272727;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+.featured-description{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+.featured-card{
+  width: 230px;
+  height: 280px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+.image{
+  width: 200px;
+  height: 230px;
+  padding-top: 10px;
+
+}
+.cards{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+
 .sale-container{
   width: 100%;
   height: auto;
@@ -108,7 +143,7 @@
 .footer-container{
   background: #000;
   width: 100%;
-  height: 320px ;
+  height: 250px ;
   justify-content: center;
   padding: 50px;
 }

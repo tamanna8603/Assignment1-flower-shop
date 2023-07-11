@@ -72,6 +72,7 @@
   gap: 15px;
   justify-content: center;
   padding: 0 20px;
+  margin-bottom: 15px;
 }
 
 
@@ -115,21 +116,21 @@
 }
 
 .cards-container{
+  width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 5px;
   padding-bottom: 10px;
-  padding-right: 5px;
-  align-items: center;
+  padding:0 5px;
   background-color: #fff;
 }
 .deals-container{
-  width: 100%;
+  width: 90%;
   height: 320px;
   text-align: center;
-  margin: 15px 0;
-  background-size: auto;
+  padding-left: 15px;
+  margin: 20px 0;
   background-image: url(./bg-img.png);
-  padding-top: 70px;
+
 }
 
 .email{
